@@ -7,11 +7,63 @@ nav{
     background-color: Red;
 
 }
+nav a{
+    text-decoration: none;
+    Color: Black;
+}
 .OverallStruct{
-    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 .Product{
+    background-color: green;
+    border: black;
+    border-style: solid;
+    padding: 30px;
     display: flex;
+    gap: 40px;
+}
+
+.TextProduct{
+    display: flex;
+    flex-direction: column;
+}
+
+.PlusMinOmschrijving{
+    display: flex;
+    justify-content: center;
+    gap:20vw;
+
+}
+.PlusMin{
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+}
+
+.Omschrijving{
+    display: flex;
+    flex-direction: column;
+}
+.GerelateerdeProd{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+}
+
+.RelaProds{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.RelaProd{
+    border: black;
+    border-style: solid;
+}
+
+img{
+    width: 200px;
 }
 
 footer{
@@ -19,4 +71,10 @@ footer{
     padding-bottom: 30px;
     background-color: aqua;
     text-align: center
+}
+
+footer a{
+    text-decoration: none;
+    color :white;
+    padding: 20px;
 }

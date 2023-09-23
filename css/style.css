@@ -1,80 +1,141 @@
-Body{
-    background-color:bisque;
+body{
     margin: 0px;
+    background-color: #E1A292;
     font-family: Arial, Helvetica, sans-serif;
+    color: #390D02;
 }
 nav{
-    background-color: Red;
-
+    background-color: #A52502;
+    padding: 10px;
+    border: #A52502;
+    border-bottom: #390D02;
+    border-style: solid;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+nav img{
+    margin-left: 40px;
+    background-color: #390D02;
+    padding: 10px 10px;
+    border-radius: 5%;
+    width: 20px;
 }
 nav a{
     text-decoration: none;
-    Color: Black;
-}
-.OverallStruct{
-    margin-right: 100px;
-    margin-left: 100px;
-}
-.Product{
-    background-color: green;
-    border: black;
-    border-style: solid;
-    padding: 30px;
-    display: flex;
-    gap: 40px;
-}
-
-.TextProduct{
-    display: flex;
-    flex-direction: column;
-}
-
-.PlusMinOmschrijving{
-    display: flex;
-    justify-content: center;
-    gap:20vw;
-
-}
-.PlusMin{
-    background-color: teal;
-    display: flex;
-    flex-direction: column;
-}
-
-.Omschrijving{
-    display: flex;
-    flex-direction: column;
-}
-.GerelateerdeProd{
-     display: flex;
-     flex-direction: column;
-     text-align: center;
-}
-
-.RelaProds{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
-
-.RelaProd{
-    border: black;
-    border-style: solid;
+    color:#000B0D;
+    font-size: 15px;
+    padding-top: 15px;
 }
 
 img{
+    width: 450px;
+}
+.OverallContainer{
+    padding-top: 50px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h1{
+    padding-left: 70px;
+}
+
+h2{
+    font-size: 40px;
+}
+.ContainerProduct{
+    padding-left: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 80%;
+}
+
+.TextProduct{
+    padding-top: 50px;
+}
+
+.TextProduct a{
+    background-color: #390D02;
+    border-radius: 5px;
+    color: #E1A292;
+    text-decoration: none;
+    padding:  10px 70px 10px 70px;
+}
+
+.ContainerPlusMin{
+    padding-left: 70px;
+    padding-top: 30px;
+    display: flex;
+   flex-direction: row; 
+   gap: 40px;
+   margin-top: 100px;
+   margin-bottom: 50px;
+   border: #390D02;
+   border-style: solid;
+   border-color: #390D02 #E1A292 #E1A292  #E1A292 ;
+
+}
+
+.PlusMin{
+    background-color: #390D02;
+    color: #E1A292;
+    padding: 30px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.Omschrijving{
+    width: 500px;
+}
+
+.ContainerGerelateerdeProducten{
+    background-color: #DB694D;
+    padding-top: 30px;
+}
+
+h5{
+    text-align: center;
+    font-size: 25px;
+}
+.GerelateerdeProducten{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:100px;
+}
+
+
+
+.GerelateerdeProducten img{
     width: 200px;
 }
 
+.GerelateerdeProductenInhoud{
+    display: flex;
+    flex-direction: column;
+    width:200px;
+}
+
 footer{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: aqua;
-    text-align: center
+    padding: 40px;
+    background-color: #390D02;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
 }
 
 footer a{
     text-decoration: none;
-    color :white;
-    padding: 20px;
+    color:#E1A292
+}
+
+.GerelateerdeProductenNaam{
+    font-size: 20px;
+    font-weight: bold;    
 }
